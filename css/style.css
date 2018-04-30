@@ -1,0 +1,64 @@
+@font-face {
+  font-family: roboto;
+  src: url(../../fonts/roboto/roboto-regular.ttf); }
+.icon {
+  height: auto;
+  width: 100px; }
+
+h3 {
+  font-size: 24px;
+  margin: 0; }
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  color: white; }
+
+body {
+  transition: background 1s;
+  font-family: roboto, sans-serif; }
+
+#loading {
+  height: 100px; }
+
+#condition {
+  font-size: 22px; }
+  #condition p {
+    margin-top: 10px; }
+
+#temperature {
+  font-size: 20px;
+  margin-top: 20px; }
+  #temperature a {
+    text-decoration: none; }
+    #temperature a span {
+      color: white;
+      opacity: 1; }
+  #temperature p {
+    margin: 0 0 10px 0;
+    display: inline-flex;
+    opacity: 1; }
+
+.arrow {
+  transform: translateY(4px);
+  margin: 0 5px 0 5px;
+  width: 20px;
+  height: auto;
+  opacity: 1; }
+
+.boundary {
+  transform: scale(0.5);
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  transition: transform 2s ease-out; }
+
+.boundaryscale {
+  transform: scale(1); }
+
+/*# sourceMappingURL=style.css.map */
